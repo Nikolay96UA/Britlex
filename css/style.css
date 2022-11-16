@@ -1,0 +1,108 @@
+:root {
+  --color-logo-one: #000000;
+  --color-logo-two: #939393;
+  --color-nav: #263238;
+  --button-text-nav: #000000;
+  --color-section-title: #000000;
+  --color-text-section: #8f95a5;
+  --text-button-hero: #ffffff;
+  --background-buttom: #263238;
+  --background-color-page: #ffffff;
+}
+
+body {
+  margin: 0;
+  font-family: 'Poppins', sans-serif;
+  color: var(--color-text-section);
+  background-color: var(--background-color-page);
+  font-size: 20px;
+  line-height: 1.5;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+ul {
+  margin: 0;
+  padding: 0;
+}
+
+.list {
+  list-style: none;
+}
+
+.conteiner {
+  margin-bottom: 0;
+  margin-top: 0;
+  margin-left: auto;
+  margin-right: auto;
+  width: 1338px;
+  padding-left: 20px;
+  padding-right: 20px;
+  /* outline: 1px solid teal; */
+}
+
+/* --------------HEADER-------------- */
+
+.logo {
+  display: flex;
+  margin-right: 236px;
+
+  color: var(--color-logo-one);
+  font-size: 36px;
+  line-height: 1.5px;
+  text-decoration: none;
+}
+
+.logo-lex {
+  color: var(--color-logo-two);
+}
+
+.nav-link {
+  color: var(--color-nav);
+  font-weight: 500;
+  text-decoration: none;
+}
+
+.button-nav {
+  width: 312px;
+  height: 70px;
+  border: 2px solid #263238;
+  border-radius: 10px;
+  background-color: #ffffff;
+  margin-left: auto;
+
+  color: var(--button-text-nav);
+  font-family: 'Poooins', sans-serif;
+  font-size: 20px;
+  line-height: 1.5;
+  letter-spacing: 0.3em;
+}
+
+.nav {
+  display: flex;
+}
+
+.nav .nav-list + .nav-list {
+  margin-left: 50px;
+}
+
+.main-nav {
+  display: flex;
+  align-items: center;
+  padding-top: 55px;
+  padding-bottom: 55px;
+}
+
+/* -------------- HERO-------------- */
+
+.hero-title {
+  color: var(--color-section-title);
+  font-weight: 600;
+  font-size: 64px;
+  line-height: 1.25;
+}
