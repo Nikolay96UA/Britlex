@@ -31,6 +31,10 @@ ul {
   padding: 0;
 }
 
+button {
+  cursor: pointer;
+}
+
 .list {
   list-style: none;
 }
@@ -43,7 +47,22 @@ ul {
   width: 1338px;
   padding-left: 20px;
   padding-right: 20px;
-  /* outline: 1px solid teal; */
+  /* outline: 1px solid teal;  */
+}
+
+.section {
+  padding-top: 180px;
+  padding-bottom: 180px;
+}
+
+.title-section {
+  margin-bottom: 60px;
+
+  font-weight: 600;
+  font-size: 48px;
+  line-height: 1.5;
+
+  color: var(--color-section-title);
 }
 
 /* --------------HEADER-------------- */
@@ -99,10 +118,114 @@ ul {
 }
 
 /* -------------- HERO-------------- */
+.section-hero {
+  display: flex;
+  margin-top: 55px;
+}
+
+.hero-info {
+  display: inline-block;
+  max-width: 540px;
+}
 
 .hero-title {
+  margin-bottom: 40px;
+
   color: var(--color-section-title);
   font-weight: 600;
   font-size: 64px;
   line-height: 1.25;
+}
+
+.hero-img {
+  display: inline-block;
+}
+
+.hero-text {
+  margin-bottom: 60px;
+  font-size: 24px;
+  line-height: 1.5;
+}
+
+.hero-button {
+  background-color: var(--background-buttom);
+  border-radius: 10px;
+  border: 1px solid transparent;
+  width: 426px;
+  height: 100px;
+
+  color: var(--text-button-hero);
+  font-size: 36px;
+  line-height: 1.5;
+  letter-spacing: 0.03em;
+}
+
+.title-skills {
+  text-align: center;
+}
+
+.subtitle-section-skills {
+  display: block;
+  margin-bottom: 20px;
+  margin-right: 0;
+
+  font-weight: 600;
+  font-size: 30px;
+  line-height: 1.5;
+
+  color: #263238;
+}
+
+.button-skills-speaking {
+  display: block;
+  width: 230px;
+  height: 60px;
+  border-radius: 10px;
+  padding: 17px 62px;
+
+  background-color: var(--background-buttom);
+  color: var(--text-button-hero);
+  text-decoration: none;
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 1.5;
+}
+
+.button-skills {
+  display: block;
+  width: 218px;
+  height: 60px;
+  border-radius: 10px;
+  padding: 15px 51px;
+
+  background-color: var(--background-buttom);
+  color: var(--text-button-hero);
+  text-decoration: none;
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 1.5;
+}
+
+.skills-img {
+  margin-bottom: 24px;
+}
+
+.skills-text {
+  display: inline-block;
+  margin-right: 0;
+  max-width: 347px;
+
+  margin-bottom: 30px;
+  font-size: 16px;
+}
+
+.list-skills {
+  display: block;
+  margin: 0;
+  width: 426px;
+  height: 947px;
+}
+
+.section-skills {
+  display: block;
 }
